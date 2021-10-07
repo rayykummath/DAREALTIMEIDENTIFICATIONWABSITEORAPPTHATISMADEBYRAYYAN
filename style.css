@@ -1,63 +1,45 @@
 body{
-    text-align: center;
-    color: lightskyblue;
+    font-family: monospace;
 }
 
-.dah3{
-    margin: none;
-    width:90%;
-    height:30%;
-    border-radius: 40;
-    animation-name:gradient;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-delay: 1000ms;
+.rii{
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px grey;
+    font-size: 20px;
 }
-    @keyframes gradient{
-        from{box-shadow: 5px 5px 20px darkblue;}
-        to{box-shadow: 5px 5px 20px green;}
-    }
-
 .dadiv{
-    animation-name:gradient2;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-delay: 1000ms;
+    float: none;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 30px;
+    color:steelblue;
+    box-shadow: 5px 5px 5px grey;   
 }
 
-@keyframes gradient2{
-    from{box-shadow: 5px 5px 20px darkblue;}
-    to{box-shadow: 5px 5px 20px green;}
+.btn-warning{
+    color: steelblue;
 }
 
-.dadiv2{
-    animation-name:gradient3;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-delay: 1000ms;
+.dapthatholdsobject,.dapthatholdsaccuracy{
+    box-shadow: 5px 5px 5px steelblue;
+    font-size: 14px;
 }
 
-@keyframes gradient3{
-    from{box-shadow: 5px 5px 20px darkblue;}
-    to{box-shadow: 5px 5px 20px green;}
+#DAFOOTERTHATHOLDSMYNAME{
+    position: fixed;
+    background-color: steelblue;
+    width:100%;
+    text-align: center;
+    bottom: 0px;
+    color:white;
+    padding: 10px;
+    font-family: monospace;
 }
 
 canvas{
-    animation-name:gradient4;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-delay: 1000ms;
+    border: 5px dashed gray;
+    border-radius: 20px;
+    margin-top: 100px;
+    box-shadow: 5px 5px 5px steelblue;
 }
-
-@keyframes gradient4{
-    from{box-shadow: 5px 5px 20px darkblue;}
-    to{box-shadow: 5px 5px 20px green;}
-}
-
-.footer{
-    background-color: darkcyan;
-    width:100%;
-    bottom: 0;
-    position: fixed;
-}
-
