@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+    color: lightskyblue;
+}
+
+.dah3{
+    margin: none;
+    width:90%;
+    height:30%;
+    border-radius: 40;
+    animation-name:gradient;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1000ms;
+}
+    @keyframes gradient{
+        from{box-shadow: 5px 5px 20px darkblue;}
+        to{box-shadow: 5px 5px 20px green;}
+    }
+
+.dadiv{
+    animation-name:gradient2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1000ms;
+}
+
+@keyframes gradient2{
+    from{box-shadow: 5px 5px 20px darkblue;}
+    to{box-shadow: 5px 5px 20px green;}
+}
+
+.dadiv2{
+    animation-name:gradient3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1000ms;
+}
+
+@keyframes gradient3{
+    from{box-shadow: 5px 5px 20px darkblue;}
+    to{box-shadow: 5px 5px 20px green;}
+}
+
+canvas{
+    animation-name:gradient4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1000ms;
+}
+
+@keyframes gradient4{
+    from{box-shadow: 5px 5px 20px darkblue;}
+    to{box-shadow: 5px 5px 20px green;}
+}
+
+.footer{
+    background-color: darkcyan;
+    width:100%;
+    bottom: 0;
+    position: fixed;
+}
+
